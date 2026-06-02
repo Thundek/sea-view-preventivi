@@ -1,6 +1,7 @@
 const CACHE_NAME = 'hotel-preventivi-v1';
 const ASSETS = [
-  './preventivo-hotel.html',
+  './',
+  './index.html',
   './manifest.json'
 ];
 
