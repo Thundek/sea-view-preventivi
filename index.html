@@ -73,7 +73,7 @@
     .pvar { font-size:.75rem; color:var(--primary); margin-top:4px; font-style:italic; }
 
     /* ─── Preview ─── */
-    .pbox { background:#fafafa; border:1px solid var(--border); border-radius:8px; padding:16px; font-size:.78rem; line-height:1.65; white-space:pre; font-family:'Courier New',Courier,monospace; max-height:540px; overflow:auto; color:#222; }
+    .pbox { background:#fafafa; border:1px solid var(--border); border-radius:8px; padding:16px; font-size:.78rem; line-height:1.65; white-space:pre; font-family:'Courier New',Courier,monospace; max-height:540px; overflow:auto; color:#222; margin:0 auto; width:fit-content; }
     .abtns { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:11px; }
     .btn { padding:11px; border:none; border-radius:8px; font-size:.86rem; font-weight:700; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:5px; transition:opacity .15s,transform .1s; }
     .btn:active { transform:scale(.96); }
@@ -185,7 +185,7 @@
       .grid { display:block; }
       .card { box-shadow:none; padding:0; margin:0; }
       .ctitle { display:none; }
-      .pbox { border:none; max-height:none; background:#fff; font-size:10pt; font-family:'Courier New',Courier,monospace; line-height:1.2; padding:0; }
+      .pbox { border:none; max-height:none; background:#fff; font-size:10pt; font-family:'Courier New',Courier,monospace; line-height:1.2; padding:0; overflow:hidden !important; margin:0 auto; width:fit-content; }
     }
     @media(max-width:767px){
       .main { padding:10px; }

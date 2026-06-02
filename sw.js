@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hotel-preventivi-v5';
+const CACHE_NAME = 'hotel-preventivi-v6';
 const ASSETS = [
   './',
   './index.html',
